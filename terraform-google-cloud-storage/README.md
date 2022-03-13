@@ -132,6 +132,6 @@ This is the `variables` file used to created the resources. This section describ
 
 ## References
 
-- [Google Official Documentation for GCS](https://cloud.google.com/storage/docs/how-to) for more information.
+- [Google Official Documentation for GCS](https://cloud.google.com/storage/docs/how-to)
 - [Terraform GCS Bucket resource](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket)
-- [Terraform IAM policy for Cloud Storage Bucket](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket_iam) for more information on the resource usage and configuration.
+- [Terraform IAM policy for Cloud Storage Bucket](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket_iam)
