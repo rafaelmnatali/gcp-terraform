@@ -8,7 +8,7 @@ These modules make it easy to manage [Google Cloud](https://cloud.google.com) re
 
 > See Terraform documentation on [Getting Started with the Google Provider](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/getting_started).
 
-The modules were tested using [Terraform v1.1.7](https://www.terraform.io/downloads) with [Terraform Google Provider v4.13.0](https://registry.terraform.io/providers/hashicorp/google/latest) on `MacOs Monterey 12.2.1`.
+The module was tested using [Terraform v1.1.7](https://www.terraform.io/downloads) with [Terraform Google Provider v4.13.0](https://registry.terraform.io/providers/hashicorp/google/latest) on `MacOs Monterey 12.2.1`.
 
 ```hcl
 terraform {
