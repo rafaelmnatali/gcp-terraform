@@ -71,3 +71,7 @@ flowchart TD
 ### Proposed Solution
 
 - [GCS buckets and roles](./terraform-google-cloud-storage)
+
+### Testing the Terraform code
+
+- [Testing Terraform](./tf-tests)
