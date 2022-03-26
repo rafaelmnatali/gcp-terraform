@@ -19,6 +19,46 @@ terraform-2 validate
 terraform-2 validate ./cloud-storage-module
 ```
 
+## Security Testing
+
+Security Testing is design to uncovers vulnerabilities, threats, and risks in a software application. This is no different when we are doing IaC.
+
+For this testing I'm using the [tfsec](https://aquasecurity.github.io/tfsec/v1.15.0/) from [Aquasec](https://www.aquasec.com). It's a tool designed specifically to review Terraform code.
+
+You can find the installation steps in the [Official Documentation](https://aquasecurity.github.io/tfsec/v1.15.0/guides/installation/).
+
+You can run `tfsec` from the root directory and it will scan all `tf` files:
+
+```bash
+tfsec
+
+  timings
+  ──────────────────────────────────────────
+  disk i/o             703.643µs
+  parsing              204.474µs
+  adaptation           135.687µs
+  checks               10.106125ms
+  total                11.149929ms
+
+  counts
+  ──────────────────────────────────────────
+  blocks               7
+  modules              1
+  files                2
+
+  results
+  ──────────────────────────────────────────
+  passed               0
+  ignored              0
+  critical             0
+  high                 0
+  medium               0
+  low                  0
+
+
+No problems detected!
+```
+
 ## Contract testing
 
 Contract tests check that a configuration using a Terraform module passes properly formatted inputs.
